@@ -12,6 +12,9 @@
     "@parcel/transformer-sass": "^2.10.0",
     "parcel": "^2.10.0"
   },
+  "optionalDependencies": {
+    "@parcel/watcher-linux-x64-glibc": "^2.3.0"
+  },
   "scripts": {
     "serve": "parcel serve --public-url / --dist-dir dist",
     "build": "parcel build"
